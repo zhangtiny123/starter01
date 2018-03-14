@@ -1,8 +1,9 @@
 # staging inventory
 
+
 [web]
-# host
+52.34.226.169
 
 [database]
-# host
+52.34.226.169
 

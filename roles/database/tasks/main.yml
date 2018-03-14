@@ -7,3 +7,8 @@
 #    - restart service
 #  tags:
 #    - example
+- name: install  docker for python
+  pip: 
+    name: docker
+  become: True
+  become_method: sudo

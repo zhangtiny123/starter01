@@ -1,2 +1,3 @@
 ---
 # file: group_vars/all
+ansible_user: opsuser

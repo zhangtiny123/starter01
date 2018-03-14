@@ -7,3 +7,11 @@
 #    - restart service
 #  tags:
 #    - example
+- name: copy hello world text to /tmp/helloworld-ansible.txt
+  file:
+    path: /tmp/helloworld-ansible.txt
+    state: touch
+    mode: "u=rw,g=r,o=r"
+- name: run a test command
+  copy: content="Hello world, go for money" dest=/tmp/helloworld-ansible.txt
+  

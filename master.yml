@@ -1,5 +1,5 @@
 ---
 # master playbook
 
-- include: web.yml
-- include: database.yml
+- import_playbook: web.yml
+- import_playbook: database.yml
